@@ -25,7 +25,7 @@ hardware = graphic.add(Image("pico_ice_front.png", embed=True))
 
 # Measure and record key locations with the hardware Image instance
 pin_pitch_v = 34.9
-pin_start_y = 132
+pin_start_y = 97
 hardware.add_coord("left", 100, pin_start_y)
 hardware.add_coord("right", 307, pin_start_y)
 # Other (x,y) pairs can also be stored here
